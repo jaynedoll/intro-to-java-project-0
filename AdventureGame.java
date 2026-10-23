@@ -10,9 +10,18 @@ public class AdventureGame {
         // record user choice
         // based on users choice do something
         //  4 actions
+        //      bring out the lobster
+        //      pull out phone
+        //      drink matcha
+        //      play guitar
         //  4 navigations
+        //      left
+        //      right
+        //      up
+        //      down
         //  sleep
         //  help
+        //      display all available choices
         //  secret word
         //      game finishes, displays turn amount
         //  random kid
