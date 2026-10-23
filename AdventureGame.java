@@ -2,11 +2,27 @@ public class AdventureGame {
     public static void main(String[] args) {
         System.out.println("hello world");
 
-        // store the secret word skibidi
-        // turn counter
+        String skibidi = "skibidi";
+        int turnCounter = 0;
+        int userChoice = -1;
+        String userGuess = "";
+
+        greetPlayer();
         
-        // start game loop
-        // greet player, give actions and navigation options
+        while (!userGuess.equalsIgnoreCase(skibidi)) {
+            
+            giveActions(); 
+            userChoice = recordUserChoice(); 
+            switch (userChoice) {
+                case value:
+                    
+                    break;
+            
+                default:
+                    break;
+            }
+        // navigation options
+
         // record user choice
         // based on users choice do something
         //  4 actions
@@ -24,6 +40,17 @@ public class AdventureGame {
         //      display all available choices
         //  secret word
         //      game finishes, displays turn amount
-        //  random kid
+        //  random kid 
+        }
+    }
+
+    private static void giveActions() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'giveActions'");
+    }
+
+    private static void greetPlayer() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'greetPlayer'");
     }
 }
